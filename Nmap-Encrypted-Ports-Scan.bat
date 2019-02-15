@@ -4,8 +4,8 @@ pause
 
 @echo off
 
-REM OGD:
-REM 57007
+
+
 REM >Nmap-Encrypted-Ports-Scan.log
 REM >Nmap-Encrypted-Ports-Scan.log
 REM 1701=l2tp
