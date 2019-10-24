@@ -116,3 +116,4 @@ REM http://www-01.ibm.com/support/knowledgecenter/SSFUEU_7.2.0/com.ibm.swg.ba.co
 REM https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?&page=116
 REM https://www.netiq.com/documentation/netiqaccessmanager4/target_installation/data/b8j3ld5.html
 REM https://www.thesslstore.com/blog/dns-over-tls-vs-dns-over-https/
+REM https://www.ibm.com/support/pages/behavior-change-file-server-enabled-default-tls-port-8445
