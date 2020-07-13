@@ -34,7 +34,7 @@ action = function(host, port)
 			if ( version == nil) then
 				version = " "
 				else
-				return "Title: " .. title .. "; Verson: " .. version .. "; Hostname: " .. hostname
+				return "\n Title:    " .. title .. "\n Verson:   " .. version .. "\n Hostname: " .. hostname
 			end
         end
 		
