@@ -5,7 +5,7 @@ local openssl	= require "openssl"
 local string	= require "string"
 
 description = [[
-Retrieves information provided by the Lync or Skype for Business server.
+Retrieves information provided by the webinterface of the Lync or Skype for Business server.
 
 The script works by looking at the HTML source of the Lync or Skype for Business server.
 The HTML source leaks some handy information that is retrieved.
@@ -18,12 +18,19 @@ The HTML source leaks some handy information that is retrieved.
 -- @output
 -- Host script results:
 -- | skype4b:
--- |  Title:    Skype for Business Web App
--- |  Verson:   lcs_se_w16_ship6.0.9319.534
--- |_ Hostname: SKYPE01
+-- |  Title:    Skype for Business
+-- |  Verson:   lcsmain7.0.2948.0
+-- |  Hostname: SKYPE01
+-- |  Whitelist:
+-- |          - https://sdfpilot.outlook.com
+-- |          - https://portal.ccsctp.com
+-- |          - https://portal.officeppe.com
+-- |          - https://edgesdf.outlook.com
+-- |          - https://sdf.outlook.com
+-- |          - https://staging.yammer.com
+-- |          - https://www.staging.yammer.com
 
-
-author = {"Michael Pattrick"}
+author = {"Zarco Zwier"}
 license = "Same as Nmap--See https://nmap.org/book/man-legal.html"
 categories = {"discovery", "external", "safe"}
 
