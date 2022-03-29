@@ -14,7 +14,7 @@ The HTML source leaks some handy information that is retrieved.
 
 ---
 -- @usage
--- nmap --script skype4b <target> [-p 443]
+-- nmap --script skype4b-web <target> [-p 443]
 -- @output
 -- Host script results:
 -- | skype4b:
@@ -32,7 +32,7 @@ The HTML source leaks some handy information that is retrieved.
 
 author = {"Zarco Zwier"}
 license = "Same as Nmap--See https://nmap.org/book/man-legal.html"
-categories = {"discovery", "external", "safe"}
+categories = {"default", "discovery", "safe"}
 
 
 -- The Rule Section --
