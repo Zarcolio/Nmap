@@ -10,7 +10,7 @@ REM Nmap-Encrypted-Ports-Scan.log
 REM Nmap-Encrypted-Ports-Scan.log
 REM 1701=l2tp
 REM 28=SSH HA Palo Alto
-
+rem https://docs.ipswitch.com/MOVEit/Gateway2020/Help/index.htm#32365.htm
 REM https://docs.progress.com/bundle/moveit-gateway-install-2022/page/Gateway-Tab-Configuration.html
 REM https://support.apple.com/en-us/HT202944
 rem https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1027217
